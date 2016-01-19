@@ -113,18 +113,18 @@ body {
 }
 
 .volume-btn {
-  width: 3px;
-  margin-right: 2px;
+  width: 5px;
   height: 11px;
   border: none;
+  border-right: 2px solid #565350;
   padding: 0;
   background-color: #333333;;
-  border-radius: 1px;
   outline: none;
 }
 
 .volume-btn:first-of-type {
-  margin-right: 0;
+  border: none;
+  width: 3px;
 }
 
 .volume-btn:hover {
