@@ -27,14 +27,20 @@ body {
   border: none;
   border-radius: 5px;
   outline: none;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
 }
 
 .play-btn:hover {
   background-color: #464442;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
 }
 
 .play-btn:active {
   background-color: #333333;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
 }
 
 /* универсальное центрование */
@@ -79,6 +85,7 @@ body {
   width: 118px;
   height: 7px;
   border: 2px solid #434241;
+  cursor: pointer;
 }
 
 .load-progress {
@@ -120,6 +127,8 @@ body {
   padding: 0;
   background-color: #333333;;
   outline: none;
+  -webkit-transition: background-color 0.5s, height 0.3s;
+  transition: background-color 0.5s, height 0.3s;
 }
 
 .volume-btn:first-of-type {
@@ -130,6 +139,8 @@ body {
 .volume-btn:hover {
   height: 16px;
   background-color: #816fca;
+  -webkit-transition: background-color 0.5s, height 0.3s;
+  transition: background-color 0.5s, height 0.3s;
 }
 
 .volume-btn:active {
@@ -147,4 +158,6 @@ body {
 .volume-btn:nth-of-type(2):hover ~ .volume-btn:nth-of-type(n+3),
 .volume-btn:nth-of-type(1):hover ~ .volume-btn:nth-of-type(n+2) {
   background-color: #816fca;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
 }
